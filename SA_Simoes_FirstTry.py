@@ -1,4 +1,4 @@
-def SA_SimoesFirstTry(vector):
+def runAlgorithm(vector):
     newVector = []
     newVector.append(vector[0])
     vectorLen = len(vector)
@@ -117,7 +117,7 @@ def SA_SimoesFirstTry(vector):
                 nextIndex += 1
         
         if len(newVector) == len(vector) - 1:
-            break;
+            break
 
     print("FINAL NEW VECTOR: ", newVector)
     
